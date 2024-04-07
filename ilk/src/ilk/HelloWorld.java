@@ -5,7 +5,7 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		
+		String oylesine = "// naber";
 		System.out.print("Adınız = ");
 		String ad = input.next();
 		System.out.print("Doğduğunuz Yıl = ");
@@ -16,5 +16,7 @@ public class HelloWorld {
 		Person person1 = new Person(ad,yas,skor);
 		System.out.print(person1.toString());
 	}
-
+	public Person oyle(Person p){
+		return p;
+	}
 }
